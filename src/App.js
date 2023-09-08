@@ -8,7 +8,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/stats" element={<Stats />} />
+                <Route path="/stats/:steamID" element={<Stats />} />
             </Routes>
         </BrowserRouter>
     );

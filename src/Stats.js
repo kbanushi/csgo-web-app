@@ -1,9 +1,12 @@
 import React from 'react';
+import {useParams} from "react-router-dom";
 
 function Stats (){
+    const {steamID} = useParams();
+
     return(
         <div>
-            Hello World
+            Steam ID: {steamID}
         </div>
     )
 }
